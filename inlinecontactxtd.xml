@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" method="upgrade" group="editors-xtd">
+    <name>PLG_INLINECONTACTXTD</name>
+    <author>Alexander Niklaus</author>
+    <authorEmail>support@an-software.net</authorEmail>
+    <authorUrl>https://an-software.net</authorUrl>
+    <copyright>Copyright (C) Alexander Niklaus. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <creationDate>October 2022</creationDate>
+    <version>1.0.0</version>
+    <description>PLG_INLINECONTACTXTD_DESCRIPTION</description>
+    <files>
+        <filename plugin="inlinecontactxtd">inlinecontactxtd.php</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_editors-xtd_inlinecontactxtd.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_editors-xtd_inlinecontactxtd.sys.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_editors-xtd_inlinecontactxtd.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_editors-xtd_inlinecontactxtd.sys.ini</language>
+    </languages>
+    <updateservers>
+        <server type="extension" priority="1" name="Button - InlineContact">https://an-software.net/software/inlinecontact/button.xml</server>
+    </updateservers>
+</extension>
